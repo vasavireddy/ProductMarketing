@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Brand Connect Marketing Page</title>
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<link rel="stylesheet" href="style/main.webdam.css">
+	<link rel="stylesheet" href="style/admin.css">
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="style/animate.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
+</head>
+
+<body class="marketing-wrapper">
+	<section id="header_background" class="bootstrap header-container header-fixed ng-scope" style="background-color: rgb(0, 64, 106);">
+		<header class="top-header clearfix ng-isolate-scope">
+			<div class="top-header-logo-wrap">
+	            <a href="#landing" class="top-header-logo">
+	                <img id="header_logo" src="style/img/webdam_logo.png">
+	            </a>
+	            <a href="/?esid=plKaoFF7lOqKgwi3DfsgD9WcHSFe3ZRUNQGVT0ha8SQ%3D" target="_blank" class="bp left feature_flag feature_brand_connect">Brand Portal</a>
+		    </div>
+
+	        <div class="hidden menu-button material-icon hamburger">
+	            <span class="first"></span>
+	            <span class="second"></span>
+	            <span class="third"></span>
+	        </div>
+
+	        <ul class="hidden-xs nav-left list-unstyled pull-left">
+				<li class="top-header-item-wrap">
+					<a href="#folders" id="navAssets" class="top-header-item" style="color: rgb(255, 255, 255);">Assets<em class="top-header-border"></em></a>
+				</li>
+									 <li class="feature_flag feature_brand_connect top-header-item-wrap">
+						<a href="#settings/brandconnect/bc-index" id="navBrands" class="top-header-item" style="color: rgb(255, 255, 255);">Brands<em class="top-header-border"></em></a>
+					</li>
+				 				
+								<li class="top-header-item-wrap dropdown">
+				  <span class="top-header-item dropdown-toggle" id="navTeams" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color: rgb(255, 255, 255);">
+				    Teams
+				  </span>
+				  <ul class="dropdown-menu" aria-labelledby="navTeams">
+				    <li><a href="#settings/users/manage-users" onclick="WebDAM.closeTopNav()">Users</a></li>
+	                <li><a href="#settings/users/manage-groups" onclick="WebDAM.closeTopNav()" class="upsell-feature" upsell="GROUPS">Groups</a></li>
+				  </ul>
+				</li>
+												<li class="top-header-item-wrap dropdown">
+				  <span class="top-header-item dropdown-toggle" id="navReports" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color: rgb(255, 255, 255);">
+				    Reports
+				  </span>
+				  <ul class="dropdown-menu" aria-labelledby="navReports">
+				    						<li><a href="#settings/reports/download-tracker" onclick="WebDAM.closeTopNav()">Download Tracker</a></li>
+						<li><a href="#settings/reports/upload-tracker" onclick="WebDAM.closeTopNav()">Upload Tracker</a></li>
+													<li class="freemium_disable"><a href="#settings/reports/login-tracker-basic" onclick="WebDAM.closeTopNav()">Login Tracker</a></li>
+																				        	<li class="feature_flag feature_request_manager"><a href="#settings/reports/request-manager" onclick="WebDAM.closeTopNav()">Request Manager</a></li>
+															           	<li><a href="#settings/reports/diskspace-usage" onclick="WebDAM.closeTopNav()">Diskspace Usage By Time</a></li>
+					    <li><a href="#settings/reports/asset-uploads" onclick="WebDAM.closeTopNav()">Uploads By Time</a></li>
+						<li><a href="#settings/reports/asset-downloads" onclick="WebDAM.closeTopNav()">Downloads By Time</a></li>
+													<li class="freemium_disable"><a href="#settings/reports/login-tracker" onclick="WebDAM.closeTopNav()">Logins By Time</a></li>
+																									<li><a href="#settings/reports/approvals" onclick="WebDAM.closeTopNav()">Approval Requests</a></li>
+																			<li><a href="#settings/reports/social-publishing" onclick="WebDAM.closeTopNav()">Social Publishing</a></li>
+									            <li><a href="#settings/reports/most-downloaded-assets" onclick="WebDAM.closeTopNav()">Most Downloaded Assets</a></li>
+
+			        			        			            <li class="nav-group-parent"><a class="top-nav-dropdown-parent" nav-group-parent="auditlog" href="javascript:WebDAM.collapseMainNavGroups('auditlog')">Audit Logs <i class="top-nav-dropdown-collapse">+</i></a></li>
+		            	<li nav-group="auditlog" class="nav-group-children hidden"><a href="#settings/auditlogger/al-assets" onclick="WebDAM.closeTopNav()">Assets</a></li>
+		            	<li nav-group="auditlog" class="nav-group-children hidden"><a href="#settings/auditlogger/al-folders" onclick="WebDAM.closeTopNav()">Folders</a></li>
+		            	<li nav-group="auditlog" class="nav-group-children hidden"><a href="#settings/auditlogger/al-permissions" onclick="WebDAM.closeTopNav()">Permissions</a></li>
+			        				  </ul>
+				</li>
+				             
+	        </ul>
+
+	        <ul class="nav-right list-unstyled pull-right">
+	        	
+	        					<li class="top-header-item-wrap dropdown">
+					<span class="top-header-item top-header-item-alt dropdown-toggle" id="navSettings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color: rgb(255, 255, 255);">
+				    	<i class="fa fa-gear nav-icon"></i>
+				    </span>
+					<ul class="dropdown-menu pull-right" aria-labelledby="navSettings">
+				    							<li><a href="#settings/settings/preferences" onclick="WebDAM.closeTopNav()">System Preferences</a></li>
+				        				            <li><a href="#settings/settings/metadata-schema" onclick="WebDAM.closeTopNav()">Metadata Schema</a></li>
+							 								 <li class="feature_flag feature_brand_connect"><a href="#settings/brandconnect/bc-index" onclick="WebDAM.closeTopNav()">Brand Connect</a></li>
+							 				            <li class="feature_flag feature_brand_portal"><a href="#settings/brandportal/settings" onclick="WebDAM.closeTopNav()">Brand Portal Preferences</a></li>
+											</ul>
+				</li>
+								<li class="top-header-item-wrap dropdown">
+	        		<span class="top-header-item top-header-item-alt dropdown-toggle" id="dropdownAccount" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="color: rgb(255, 255, 255);">
+				    	Vasavi <span class="caret"></span>
+				    </span>
+					<ul class="dropdown-menu pull-right" aria-labelledby="dropdownAccount">
+	    							    	<li><a href="javascript:WebDAM.getAccountSubscription();" onclick="WebDAM.closeTopNav()">Subscription</a></li>
+				    				    						<li><a href="javascript:WebDAM.newUser(82040, 1)" onclick="WebDAM.closeTopNav()">Profile</a></li>
+									        <li><a href="javascript:WebDAM.addressBook.showAddressBook()" onclick="WebDAM.closeTopNav()">Address Book</a></li>
+				        <li><a href="javascript:WebDAM.viewDownloadHistory(82040)" onclick="WebDAM.closeTopNav()">Download History</a></li>
+						<li><a href="" target="_blank">Help</a></li>
+											<li><a href="javascript:WebDAM.addOnSettings()" onclick="WebDAM.closeTopNav()">Add-on Settings</a></li>
+				    					 				    	<li><a href="/logout.php">Logout</a></li>
+				   </ul>
+	        	</li>
+	        </ul>
+		</header>
+	</section>
+
+	<div class="background-image">
+		<h2>Brand Portal is upgrading to Brand Connect.</h2>
+
+	</div>
+
+	<div class="upgrade">
+		<button type="button" class="btn btn-lg">Get It Free</button>
+	</div>
+
+	<div class="description">
+		<p>Here's what's new:</p>
+	</div>
+
+	<div id="triangle_down">
+	</div>
+
+	<div class="newfeatures">
+
+	<div class="reimagined">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="reimagined-text">
+						<h5>Find assets faster – from any device.</h5>
+						<p>We re-engineered the whole product from the ground up – speeding up search and getting you on your way whether you're using a computer, tablet or smartphone.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="wow fadeInUp" data-wow-offset="10">
+					<div class="reimagined-image">
+					<div class="ipad wow animated fadeInUp wait-a-bit" data-wow-offset="10">
+						<img src="style/img/ipad.png">
+					</div>
+					<div class="iphone wow animated fadeInUp wait-a-bit-more" data-wow-offset="10">
+						<img src="style/img/iphone.png">
+					</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--<div class="iphone">
+		<img src="style/img/iphone.png">
+	<div>-->
+
+	<div class="brandguidelines">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="wow fadeInUp" data-wow-offset="10">
+					<div class="brandguidelines-image">
+					</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="brandguidelines-text">
+						<h5>Drag and drop your design.</h5>
+						<p>Create and publish brand guidelines using our super-simple drag-and-drop builder. Add images, text, color palettes and more.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="interactive">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="interactive-text">
+						<h5>Build an interactive homepage.</h5>
+						<p>Showcase your brand assets with dynamic widgets and slideshows – it only takes a few minutes.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="wow fadeInUp" data-wow-offset="10">
+					<div class="interactive-image">
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="customize">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="wow fadeInUp" data-wow-offset="10">
+					<div class="customize-image">
+					</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="customize-text">
+						<h5>Customize to your heart's content.</h5>
+						<p>An off-brand brand portal is <i>no bueno</i>. So change colors, add logos and set the branding example.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+	<div class="trybrandconnect">
+		<button type="button" class="btn btn-lg">Upgrade Free Now</button>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,694 @@
+.background-image{
+  width: 100%;
+  height: 475px;
+  background-image: url('img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  background-attachment: fixed;
+
+}
+
+.background-image h1{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   color: #ffffff;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 60px;
+   line-height: 30px;
+   font-size: 50px;
+   text-shadow: 0px 1px  2px #333;
+   font-family: Open Sans;
+   font-weight: 400;
+}
+
+.background-image h2{ 
+   position: absolute; 
+   top: 175px; 
+   left: 0; 
+   width: 100%; 
+   color: #ffffff;
+   text-align: center;
+   margin-top: 60px;
+   line-height: 30px;
+   font-size: 40px;
+      text-shadow: 0px 1px  2px #333;
+   font-family: Open Sans;
+   font-weight: 400;
+}
+
+.upgrade .btn{
+  margin-top: -200px;
+  margin-bottom: 160px;
+  border-radius: 5px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #DDD;
+  font-size: 16px;
+  font-family: Open Sans;
+}
+
+.upgrade .btn:hover{
+  color: #fff;
+  background-color: rgba(50, 50, 50, .75);
+  border: 1px solid #ffffff;
+}
+
+.upgrade .btn:focus{
+  color: #fff;
+  background-color: rgba(50, 50, 50, .75);
+  border: 1px solid #ffffff;
+}
+
+.description{
+  margin-top: -21px;
+}
+
+.description p{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 16px;
+  padding-bottom: 40px;
+  background-color: #229DDA;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.newfeatures{
+  margin-top: 0px;
+}
+
+.reimagined{
+  background-color: #FFF;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.reimagined-text{
+  margin-left: 110px;
+  margin-right: 50px;
+  margin-top: 125px;
+}
+
+
+.reimagined-text h5{
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.reimagined-text p{
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+  margin-right: 250px;
+}
+
+.reimagined-image{
+  width: 550px;
+    height: 400px;
+    margin-left: -175px;
+    background: url('img/icons-sf879b91d8a.png');
+    margin-bottom: 50px;
+}
+
+.row:hover .reimagined-image {
+    animation: play 5.0s steps(30) infinite;
+}
+
+@keyframes play {
+  from {background-position: 0 0;}
+  to { background-position: -16500px 0; } 
+}
+
+.ipad img{
+  width: auto;
+  height: 200px;
+  margin-top: 188px;
+  margin-left: 50px;
+}
+
+.iphone img{
+  width: auto;
+  height: 150px;
+  margin-top: -172px;
+  margin-left: 415px;
+}
+
+.brandguidelines{
+  background-color: rgba(250, 150, 0, .75);
+}
+
+.brandguidelines-image{
+  width: 550px;
+    height: 350px;
+    /*margin: 2% auto;*/
+    margin-left: 50px;
+    margin-right: -100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: url('img/icons-se2383a6ebe.png');
+}
+
+.row:hover .brandguidelines-image {
+    animation: play2 1.5s steps(7) infinite;
+}
+
+@keyframes play2 {
+  from {background-position: 0 0;}
+  to { background-position: -3850px; }
+}
+
+.brandguidelines-text{
+  margin-left: 200px;
+  margin-right: 0px;
+  margin-top: 200px;
+}
+
+.brandguidelines-text h5{
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+  margin-left: 100px;
+  color: #000;
+}
+
+.brandguidelines-text p{
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+}
+
+.interactive{
+  background-color: #FFF;
+  margin-bottom: 50px;
+}
+
+.interactive-text{
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 200px;
+}
+
+.interactive-text h5{
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.interactive-text p{
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+  margin-right: 250px;
+}
+
+.interactive-image{
+  width: 550px;
+    height: 350px;
+    /*margin: 2% auto;*/
+    margin-left: -175px;
+    margin-bottom: 75px;
+    margin-top: 100px;
+    background: url('img/icons-sa4cdab098f.png');
+}
+
+.row:hover .interactive-image {
+    animation: play3 2.0s steps(12) infinite;
+}
+
+@keyframes play3 {
+  from {background-position: 0 0;}
+  to { background-position: -6600px; }
+}
+
+.customize{
+  background-color: rgba(126, 126, 126, .25);
+}
+
+.customize-image{
+  width: 550px;
+    height: 350px;
+    margin-left: 25px;
+    margin-right: -100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: url('img/icons-sd43864b741.png');
+}
+
+.row:hover .customize-image {
+    animation: play4 3.5s steps(21) infinite;
+}
+
+@keyframes play4 {
+  from {background-position: 0 0;}
+  to { background-position: -11550px; }
+}
+
+
+.customize-text{
+  margin-left: 200px;
+  margin-right: 0px;
+  margin-top: 200px;
+}
+
+.customize-text h5{
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 600;
+  margin-left: 100px;
+  color: #000;
+}
+
+.customize-text p{
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+}
+
+.trybrandconnect .btn{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #229DDA;
+  border-radius: 5px;
+  color: #FFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #FFF;
+}
+
+.trybrandconnect .btn:hover{
+  background-color: rgba(34, 157, 218, .75);
+  color: #FFF;
+  border: 1px solid #FFF;
+}
+
+.trybrandconnect .btn:focus{
+  background-color: rgba(34, 157, 218, 1);
+  color: #FFF;
+  border: 1px solid #FFF;
+}
+
+#triangle_down{
+  width: 0;
+  height: 0;
+  border-top: 30px solid #229DDA;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
+.marketing-wrapper {
+  overflow: visible;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.reimagined-text{
+  margin-left: 25px;
+  margin-right: 0px;
+  margin-top: 130px;
+}
+
+.reimagined-text h5{
+  font-size: 22px;
+}
+
+.reimagined-text p{
+  font-size: 18px;
+}
+
+.reimagined-image{
+  transform: scale(.8, .8);
+}
+
+.brandguidelines-text{
+  margin-left: 175px;
+  margin-right: -100px;
+  margin-top: 175px;
+}
+
+.brandguidelines-text h5{
+  font-size: 22px;
+}
+
+.brandguidelines-text p{
+  font-size: 18px;
+}
+
+.brandguidelines-image{
+    margin-left: -75px;
+    transform: scale(.8, .8);
+}
+
+.interactive{
+  margin-bottom: 20px;
+}
+
+.interactive-text{
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.interactive-text h5{
+  font-size: 22px;
+}
+
+.interactive-text p{
+  font-size: 18px;
+}
+.interactive-image{
+  transform: scale(.8, .8);
+}
+
+.customize-image{
+    margin-left: -75px;
+    transform: scale(.8, .8);
+}
+
+.customize-text{
+  margin-left: 130px;
+  margin-right:-75px;
+  margin-top: 200px;
+}
+
+.customize-text h5{
+  font-size: 22px;
+}
+
+.customize-text p{
+  font-size: 18px;
+}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.background-image h2{
+  font-size: 35px;
+}
+
+.reimagined-text{
+  margin-left: 150px;
+  margin-right: -150px;
+  margin-top: -30px;
+}
+
+.reimagined-text h5{
+  font-size: 20px;
+}
+
+.reimagined-text p{
+  font-size: 16px;
+}
+
+.reimagined-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -25px;
+}
+
+.brandguidelines-text{
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.brandguidelines-text h5{
+  font-size: 20px;
+}
+
+.brandguidelines-text p{
+  font-size: 16px;
+}
+
+.brandguidelines-image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+.interactive-text{
+  margin-top: 50px;
+  margin-left: 140px;
+  margin-right: -175px;
+  margin-bottom: -20px;
+}
+
+.interactive-text h5{
+  font-size: 20px;
+}
+
+.interactive-text p{
+  font-size: 16px;
+}
+
+.interactive-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -25px;
+  margin-top: 10px;
+}
+
+.customize-text{
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: -125px;
+  margin-bottom: 50px;
+}
+
+.customize-text h5{
+  font-size: 20px;
+}
+
+.customize-text p{
+  font-size: 16px;
+}
+
+.customize-image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -25px;
+}
+
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.background-image h2{
+  font-size: 30px;
+}
+  
+.reimagined{
+  margin-bottom: -50px;
+}
+  .reimagined-text{
+  margin-left: 50px;
+  margin-right: -175px;
+  margin-bottom: -50px;
+}
+
+.reimagined-text h5{
+  font-size: 18px;
+}
+
+.reimagined-text p{
+  font-size: 16px;
+}
+
+.reimagined-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  transform: scale(.6, .6);
+}
+
+.brandguidelines-text{
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.brandguidelines-text h5{
+  font-size: 18px;
+}
+
+.brandguidelines-text p{
+  font-size: 16px;
+}
+
+.brandguidelines-image{
+  /*margin-left: -50px;*/
+  margin-top: -25px;
+  margin-bottom: -25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  transform: scale(.6, .6);
+}
+
+.interactive-text{
+  margin-left: 50px;
+  margin-bottom: -50px;
+}
+
+.interactive-text h5{
+  font-size: 18px;
+}
+
+.interactive-text p{
+  font-size: 16px;
+}
+
+.interactive-image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -50px;
+  margin-top: 25px;
+  transform: scale(.6, .6);
+}
+
+.customize-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  margin-bottom: -50px;
+  transform: scale(.6, .6);
+}
+.customize-text{
+  margin-left: -50px;
+  margin-top: 5px;
+}
+
+.customize-text h5{
+  font-size: 18px;
+}
+
+.customize-text p{
+  font-size: 16px;
+}
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+.reimagined-text{
+  margin-left: 50px;
+  margin-right: -210px;
+}
+
+.reimagined-text h5{
+  font-size: 16px;
+}
+
+.reimagined-text p{
+  font-size: 14px;
+}
+
+.reimagined-image{
+  margin-left: -100px;
+  transform: scale(.5, .5);
+}
+
+.brandguidelines-text{
+  margin-left: -50px;
+}
+
+.brandguidelines-text h5{
+  font-size: 16px;
+}
+
+.brandguidelines-text p{
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+.brandguidelines-image{
+  margin-left: -100px;
+  transform: scale(.5, .5);
+}
+
+.interactive-text{
+  margin-left: 50px;
+  margin-right: -210px;
+}
+
+.interactive-text h5{
+  font-size: 16px;
+}
+
+.interactive-text p{
+  font-size: 14px;
+}
+
+.interactive-image{
+  margin-left: -100px;
+  transform: scale(.5, .5);
+}
+
+.customize-image{
+  margin-left: -100px;
+  transform: scale(.5, .5);
+}
+.customize-text{
+  margin-left: -50px;
+}
+
+.customize-text h5{
+  font-size: 16px;
+}
+
+.customize-text p{
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+        
+}
